@@ -25,6 +25,6 @@ Analyzes publicly available data on prescription drugs introduced to the U.S. ma
 - **Backend:** Django (Python)
 - **Frontend:** HTML, CSS (Django Templates)
 - **Data Processing:** Pandas
-- **Visualization (optional):** Matplotlib / Seaborn / Plotly
-- **Deployment:** AWS Elastic Beanstalk / EC2 (optional)
-- **Version Control:** Git + GitHub
+- **Visualization:** Matplotlip, Seaborn, Plotly
+- **Deployment:** AWS EC2, RDS, Elastic Beanstalk
+
