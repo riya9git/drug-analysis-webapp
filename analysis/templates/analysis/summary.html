@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drug Analysis Summary</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Prescription Drug Market Analysis</h1>
+    <p><strong>Total drugs analyzed:</strong> {{ total }}</p>
+
+    <h2>Approvals per Year</h2>
+    <ul>
+        {% for year, count in year_data.items %}
+            <li>{{ year }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+
+    {% if top_sponsors %}
+    <h2>Top Sponsors</h2>
+    <ul>
+        {% for sponsor, count in top_sponsors.items %}
+            <li>{{ sponsor }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if top_classes %}
+    <h2>Top Therapeutic Classes</h2>
+    <ul>
+        {% for cls, count in top_classes.items %}
+            <li>{{ cls }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
