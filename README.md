@@ -2,9 +2,9 @@
 
 This Django-based web application analyzes publicly available data on prescription drugs introduced to the U.S. market. The dataset is sourced from the California Open Data Portal and offers insights into yearly approval trends, top pharmaceutical sponsors, and major therapeutic classes.
 
-## 🔗 Dataset Source
+## Dataset Source
 
-- **Title:** [Prescription Drugs Introduced to Market](https://data.ca.gov/dataset/prescription-drugs-introduced-to-market)
+- **[Prescription Drugs Introduced to Market](https://data.ca.gov/dataset/prescription-drugs-introduced-to-market)**
 - **Provider:** California Open Data Portal
 - **Format:** CSV
 
