@@ -4,7 +4,7 @@ Analyzes publicly available data on prescription drugs introduced to the U.S. ma
 
 ## Dataset Source
 
-- **[Prescription Drugs Introduced to Market](https://data.ca.gov/dataset/prescription-drugs-introduced-to-market)**
+- **Data: [Prescription Drugs Introduced to Market](https://data.ca.gov/dataset/prescription-drugs-introduced-to-market)**
 - **Provider:** California Open Data Portal
 - **Format:** CSV
 
